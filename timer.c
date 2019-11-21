@@ -6,10 +6,10 @@ while(h<60)
 {
 while(i<60)
 {
-//for(k=0;k<0xffffff;k++);
-//for(k=0xffffff;k>=0;k--);
-//for(k=0;k<0xffffff;k++);
-//for(k=0xffffff;k>=0;k--);
+for(k=0;k<0xffffff;k++);//delay
+for(k=0xffffff;k>=0;k--);
+for(k=0;k<0xffffff;k++);
+for(k=0xffffff;k>=0;k--);
 printf("%d:%d:%d\n",h,m,i);
 if(i==59)
 m++;
